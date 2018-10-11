@@ -11,7 +11,7 @@ MEMBER_LIST = [
     'myungho',
     'hyeon',
     'yoonji',
-    'yukeyong',
+    'yukyeong',
     ]
 
 def create_random_meeting(member_list, meeting_size = DEFAULT_MEETING_SIZE):

@@ -1,4 +1,3 @@
-import pprint as p
 import random
 from datetime import datetime
 

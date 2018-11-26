@@ -46,7 +46,7 @@ def create_random_meeting(meeting_size = DEFAULT_MEETING_SIZE):
     meeting_size = meeting_size - pool_size_new  # meeting_size reset including new_members
     
     while (True):    
-        if remained_size > meeting_size:
+        if remained_size > meeting_size * 2:
             # assign original_members to a meeting_group
             meeting_group = [remained_members[n] for n in random.sample(range(remained_size), meeting_size)]
             remained_size -= len(meeting_group)

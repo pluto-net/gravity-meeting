@@ -1,7 +1,7 @@
 # gravity-meeting
 When you create a meeting, random gravity will be generated between team members. Follow the lead of organizer according to the gravity!
 
-# Result Example
+## Result Example
 ```
 Welcome to gravity meeting: 2019-01-14 17:04:15.596220
 ===========================================
